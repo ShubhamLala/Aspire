@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/grapher"
+        android:title="Grapher"/>
+    <item
+        android:id="@+id/equation"
+        android:title="Equation Solver"/>
+    <item
+        android:id="@+id/matrix"
+        android:title="Matrix"/>
+
+</menu>

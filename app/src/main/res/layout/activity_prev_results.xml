@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".prev_results">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="232dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="175dp"
+        android:text="Previous Results"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+
+        <!--android:id="@+id/table"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:gravity="center"-->
+        <!--android:stretchColumns="0,1,2,3,4"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent">-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#000000"-->
+
+            <!--&gt;-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Sl No "-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Physics "-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Chemistry "-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Maths "-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Total "-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                <!--android:textStyle="bold" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="110dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#000000">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/r00"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/r01"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="2"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="110dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#000000">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="2"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="110dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#000000">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="2"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#000000">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="2"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+        <!--</TableRow>-->
+
+        <!--<TableRow-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_margin="1dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#000000">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="1"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="0"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_column="2"-->
+                <!--android:layout_margin="1dp"-->
+                <!--android:background="#FFFFFF"-->
+                <!--android:gravity="center"-->
+                <!--android:text=" Text"-->
+                <!--android:textAppearance="?android:attr/textAppearanceLarge" />-->
+        <!--</TableRow>-->
+
+
+    <!--</TableLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
